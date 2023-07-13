@@ -1,0 +1,9 @@
+:root{
+    --color-font: white;
+    --size-font: 1.25rem;
+}
+
+.clock{
+    color: var(--color-font);
+    font-size: var(--size-font);
+}

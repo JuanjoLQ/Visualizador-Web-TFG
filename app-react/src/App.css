@@ -1,0 +1,354 @@
+:root{
+	/* --color-navbar:  rgb(0, 51, 102); */
+	--color-navbar:  rgb(0, 0, 0);
+	--color-sidebar: rgb(33, 37, 41);
+}
+
+* {
+	font-family: 'Roboto', sans-s serif;
+	
+}
+
+.color-navbar{
+	background-color: var(--color-navbar) !important;
+}
+
+.sidebar{
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.color-sidebar{
+	background-color: var(--color-sidebar) !important;
+}
+
+#root {
+	background-color: rgb(36,36,36);
+}
+
+/* #root {
+	max-width: 1c00px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
+
+.border {
+	border-style: solid;
+	border-color: black;
+}
+
+.info {
+	text-align: center;
+	margin: 10px 0;
+
+}
+
+.info .box-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.info .box-container .box {
+	height: 200px;
+	width: 200px;
+	background: #000000;
+	text-align: center;
+	border-radius: 1rem;
+	box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+	margin: 2rem;
+	cursor: pointer;
+}
+
+.info .box-container .box i {
+	height: 6rem;
+	width: 6rem;
+	line-height: 6rem;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	background: #c63bfa;
+	font-size: 3rem;
+	margin: 2rem 0;
+	margin-right: 50px;
+	margin-left: 50px;
+	transition: .2s;
+}
+
+.info .box-container .box h3 {
+	font-size: 2rem;
+	color: #ff046f;
+	transition: .2s;
+}
+
+.info .box-container .box p {
+	font-size: 1.3rem;
+	padding: .7rem 2rem;
+	color: #fff;
+
+}
+
+.info .box-container .box:hover i {
+	background: #ff046f;
+}
+
+.info .box-container .box:hover h3 {
+	color: #c63bfa;
+}
+
+svg g text {
+	font-size: .9em;
+}
+*/
+/* 
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+#titulo {
+	color: tomato;
+	font-size: 10px;
+}
+
+h2 {
+	color: green;
+}
+
+p.texto {
+	color: slateblue;
+}
+
+p.especial {
+	color: mediumseagreen;
+}
+
+div p {
+	color: aquamarine;
+}
+
+div h2,
+div h3 {
+	color: brown;
+}
+
+* {
+	font-size: 24px;
+} */
+
+/* 
+esto es un comentario
+*/
+
+/*
+.color{
+	color: #ff0000;
+}
+.color {
+	color: rgb(0, 255, 255);
+}
+*/
+
+/* .color {
+	/* border: 5px black solid */
+
+/*
+		dotted
+		dashed
+		solid
+		double
+		groove
+		ridge
+		inset
+		outset
+		none
+		hidden
+	*/
+/*
+	border-style: solid;
+	border-color: blue;
+	border-radius: 5px;
+	border-width: 2rem;
+}
+
+#fondo {
+	background-color: rgba(255, 0, 0);
+	height: 200px;
+	/* background-image: url('../public/images/coffee.png');
+	background-repeat: repeat-y;
+	background-position: center bottom; */
+/* background: #f00 url('../public/images/coffee.png') repeat-y center bottom / 100px 100px; */
+/* background-size: 100px 100px; */
+/*
+}
+
+.margen {
+	background-color: chocolate;
+	margin: 15px;
+	padding: 30px 15px 5px;
+	border: solid 1px black;
+	height: 100px;
+	width: 50px;
+	overflow: hidden;
+	outline: 1px solid red;
+}
+
+.text {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	text-align: center;
+	text-decoration: overline;
+	text-shadow: 3px 5px 5px blue;
+} */
+
+/* 
+Tienes que seguir el orden link - visited - hover - active
+Si quieres unicamente tocar active tienes que escribir antes
+link - visited - hover en ese orden si hubiera
+*/
+/* a:link {
+	color: black;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
+	color: red;
+}
+
+ul {
+	list-style-type: disc;
+	background-color: cyan;
+	/* padding-left: 0px; */
+/* list-style-position: inside; */
+/* }
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+th {
+	background-color: tomato;
+	color: white;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}
+
+tr:hover {
+	background-color: #aaa;
+	cursor: pointer;
+}
+
+span{
+	display: block; */
+/* display: none; */
+/* visibility: hidden; */
+/* max-width: 300px;
+	background-color: #f00;
+}
+
+.inline{
+	display: inline;
+}
+
+#position{
+	position: sticky;
+	left: 20px;
+	top: 25px;
+
+}
+
+.left{
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.right{
+	float: right;
+}
+
+.container{
+	height: 200px;
+}
+
+.column{
+	margin: 0;
+	padding: 10px 0px;
+	width: 33.3%;
+}
+
+.inline-block{
+	display: inline-block;
+	margin-right: 5px;
+	height: 55px;
+	background-color: red;
+}
+
+section p{
+	color: black;
+}
+
+.center{
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	background-color: aqua;
+} */

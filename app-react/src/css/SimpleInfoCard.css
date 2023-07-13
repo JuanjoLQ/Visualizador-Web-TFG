@@ -1,0 +1,25 @@
+:root {
+    --color-card-background: rgb(65, 105, 225);
+    --color-card-title: black;
+    --color-card-body: white;
+    --tam-card-title: 20px;
+    --tam-card-body: 15px;
+}
+
+.card-background {
+    background-color: var(--color-card-background) !important;
+}
+
+.card-title {
+    font-size: var(--tam-card-title) !important;
+    color: var(--color-card-title);
+}
+
+.card-body-text {
+    font-size: var(--tam-card-body);
+    color: var(--color-card-body);
+}
+
+.radius {
+    border-radius: 1px !important;
+}
